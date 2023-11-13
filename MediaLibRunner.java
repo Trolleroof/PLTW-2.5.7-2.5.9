@@ -1,6 +1,8 @@
 /*
  2.5.7 by Nikhil P and Sky A
  */
+import java.util.Calendar;
+
 public class MediaLibRunner
 {
   public static void main(String[] args)
@@ -48,7 +50,9 @@ public class MediaLibRunner
 	System.out.println(newBook2 + " equal " + newBook + "? "  + newBook2.equals(newBook));
 	newBook2.setAuthor("George Orwell");
 	System.out.println(newBook2 + " equal " + newBook + "? "  + newBook2.equals(newBook));
-  
+
+	newBook2.adjustRating(4);
+ 
  
   }
 }

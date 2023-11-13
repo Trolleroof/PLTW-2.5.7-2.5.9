@@ -9,6 +9,7 @@ public class Book
   private String author;
   private int rating;
   
+  
   /*** Constructor ****/
   public Book(String t, String a)
   {
@@ -21,6 +22,11 @@ public class Book
   public String getTitle() {
     return title;
   }
+
+//   public String getInfo()
+// {
+//    return "The current book information is " + info;
+// }
 
   public String getAuthor() {
     return author;
@@ -49,6 +55,7 @@ public class Book
     author = a;
   }
 
-public void adjustRating(int i) {
+public void adjustRating(int r) {
+  System.out.println("Adjusting rating by " + r);
 }
 }

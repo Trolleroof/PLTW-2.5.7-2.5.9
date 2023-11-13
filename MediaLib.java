@@ -13,6 +13,7 @@ public class MediaLib
   public static int numSongs = 0;
   public static int numBooks = 0;
   public static int numMovies = 0;
+  public static int dateTimeStr = 2;
 
   public void addBook(Book b)
   {
